@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F4F8FC">
+
+    <TextView
+        android:id="@+id/textCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="82sp"
+        android:textStyle="bold"
+        android:textColor="#1D3557"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/buttonIncrease"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="INCREASE"
+        android:backgroundTint="#2A9D8F"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/buttonDecrease"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="DECREASE"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E76F51"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="RESET VALUE"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#457B9D"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
